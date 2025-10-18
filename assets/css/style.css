@@ -352,7 +352,7 @@
   font-weight: 900;
 }
 .event_day time .num-800 {
-  font-size: clamp(36px, 6vw, 110px);
+  font-size: clamp(42px, 6vw, 110px);
 }
 .event_weekday {
   font-size: 46px;
@@ -545,7 +545,7 @@
 
 /* お申し込みボタン */
 .cta_note {
-  font-size: clamp(16px, 2.5vw, 36px);
+  font-size: clamp(20px, 2.5vw, 36px);
   margin: 80px 0 10px;
   text-align: center;
 }
@@ -555,7 +555,7 @@
   padding-bottom: 80px;
 }
 .cta {
-  font-size: clamp(18px, 3.7vw, 50px);
+  font-size: clamp(24px, 3.7vw, 50px);
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -600,7 +600,7 @@
   .cta {
     width: 100%;
     box-sizing: border-box;
-    padding: 22px 16px;
+    padding: 30px 16px;
     gap: 20px;
     justify-content: center;
   }
