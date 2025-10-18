@@ -381,7 +381,7 @@
   padding-bottom: 40px;
 }
 .event_time .num-800 {
-  font-size: clamp(30px, 5vw, 60px);
+  font-size: clamp(28px, 5vw, 60px);
 }
 .event_time::after {
   content: "";
@@ -502,7 +502,14 @@
     padding: 40px 12px 60px;
   }
   .event_schedule {
-    padding: 40px 12px 60px;
+    padding: 20px 12px 40px;
+  }
+  .event_year {
+    margin-bottom: 0;
+  }
+  .event_time {
+    margin: 10px 0 20px;
+    padding-bottom: 20px;
   }
   .event_time::after {
     height: 8px;
@@ -513,7 +520,7 @@
   .event_schedule h3 {
     width: 100%;
     padding: 12px 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .event_weekday {
     font-size: 16px;
@@ -530,11 +537,14 @@
   }
   .event_timetable {
     gap: 15px;
-    margin-bottom: 12px;
+    margin-bottom:8px;
   }
   .event_program-title {
     margin-bottom: 20px;
-  }
+  }  
+.event ol li:nth-child(2) > .event_program-title {
+    margin-bottom: 10px;
+}
   .event_org br {
     display: block;
   }
@@ -606,6 +616,9 @@
   }
 }
 @media screen and (max-width: 530px) {
+  .cta_note {
+    margin: 40px 0 10px;
+  }
   .cta_group::after {
     height: 8px;
     background: radial-gradient(circle, #0092c4 0 4px, transparent 4px) repeat-x;
